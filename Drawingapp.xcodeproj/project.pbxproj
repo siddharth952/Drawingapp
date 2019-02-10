@@ -12,6 +12,7 @@
 		E174F46E220DC45C001F881E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E174F46C220DC45C001F881E /* Main.storyboard */; };
 		E174F470220DC45D001F881E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E174F46F220DC45D001F881E /* Assets.xcassets */; };
 		E174F473220DC45D001F881E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E174F471220DC45D001F881E /* LaunchScreen.storyboard */; };
+		E174F47B220DCBB2001F881E /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174F47A220DCBB2001F881E /* CanvasView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E174F46F220DC45D001F881E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E174F472220DC45D001F881E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E174F474220DC45D001F881E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E174F47A220DCBB2001F881E /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				E174F468220DC45C001F881E /* AppDelegate.swift */,
 				E174F46A220DC45C001F881E /* ViewController.swift */,
+				E174F47A220DCBB2001F881E /* CanvasView.swift */,
 				E174F46C220DC45C001F881E /* Main.storyboard */,
 				E174F46F220DC45D001F881E /* Assets.xcassets */,
 				E174F471220DC45D001F881E /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				E174F46B220DC45C001F881E /* ViewController.swift in Sources */,
 				E174F469220DC45C001F881E /* AppDelegate.swift in Sources */,
+				E174F47B220DCBB2001F881E /* CanvasView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +287,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F94YLNW6S;
 				INFOPLIST_FILE = Drawingapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HalfKarma.Drawingapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.outrunhalf.Draw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +305,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9F94YLNW6S;
 				INFOPLIST_FILE = Drawingapp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = HalfKarma.Drawingapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.outrunhalf.Draw;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
