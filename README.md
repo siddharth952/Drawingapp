@@ -1,4 +1,4 @@
 # Drawingapp
 Simple Drawing app for the iOS
 
-![](Demo.gif)
+![](Feb-22-2019 08-22-41.gif)
