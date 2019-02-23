@@ -1,4 +1,4 @@
 # Drawingapp
-Simple Drawing app for the iOS
+Simple Drawing app for the iOS.
 
 ![](Demo.gif)
